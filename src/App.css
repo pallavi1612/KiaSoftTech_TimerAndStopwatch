@@ -1,0 +1,82 @@
+body{
+ background-image:url('https://t3.ftcdn.net/jpg/01/59/44/60/360_F_159446043_7nhlA9lYWDdRDHUs4nmjsMeaRvxk1a0z.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ 
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.title{
+  justify-content: center;
+  text-align: center;
+  color: rgb(110, 7, 119); 
+}
+.resultBox{
+  justify-content: center;
+  text-align: center;
+ 
+    
+}
+.resultBox span{
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+}
+.box{
+  justify-content: center;
+  text-align: center;
+  size: 34px;
+}
+.timer{
+  font-size: 40px;
+}
+.actions{
+  font-size: 26px;
+}
+.actions button{
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 9px black;
+  background-color: #3c95d6;
+}
+.actions button :hover{
+  background-color: #b2e4f1;
+}
+
